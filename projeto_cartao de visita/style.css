@@ -1,12 +1,11 @@
+img{
+    width: 500px;
+}
 .c{
-   
     border-radius: 30px;
     margin: 30px;
     padding: 30px;
     background-color: #FFAAAA;
-    width: 500px;
-}
-img{
     width: 500px;
 }
 h1{
