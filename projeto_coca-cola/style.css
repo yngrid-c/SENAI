@@ -118,10 +118,17 @@ p{
     background-color: black;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .socials{
+    display: flex;
+    gap: 15px;
+}
+.insta, .linkedin, .facebook, .youtube{
     width: 32px;
     height: 32px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .insta{
     background-image: url(assets/img-09.png);
@@ -134,4 +141,4 @@ p{
 }
 .youtube{
     background-image: url(assets/img-12.png);
-}
+} 
