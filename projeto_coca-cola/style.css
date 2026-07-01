@@ -114,31 +114,38 @@ p{
     text-decoration: none;
 }
 .footer{
-    padding: 20px 90px;
     background-color: black;
+    padding: 40px 120px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .socials{
     display: flex;
-    gap: 15px;
+    justify-content: space-between;
+    gap: 20px;
 }
-.insta, .linkedin, .facebook, .youtube{
+.socials a{
     width: 32px;
     height: 32px;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 .insta{
     background-image: url(assets/img-09.png);
+    background-size: contain;
+    background-position: center;
 }
 .linkedin{
     background-image: url(assets/img-10.png);
+    background-size: contain;
+    background-position: center;
 }
 .facebook{
     background-image: url(assets/img-11.png);
+    background-size: contain;
+    background-position: center;
 }
 .youtube{
     background-image: url(assets/img-12.png);
-} 
+    background-size: contain;
+    background-position: center;
+}
+
