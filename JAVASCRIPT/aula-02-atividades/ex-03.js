@@ -6,4 +6,4 @@ console.log(typeof Filhos);
 
 let comparacao = 10 > 5
 
-console.log(typeof Comparacao);
+console.log(typeof comparacao);

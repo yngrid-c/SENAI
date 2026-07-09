@@ -1,0 +1,4 @@
+let comidas =["pizza","sushi","uva"]
+comidas.forEach(function(item,indice){
+    console.log(`${indice+1} - ${item}`)
+})
