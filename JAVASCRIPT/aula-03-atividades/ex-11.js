@@ -1,5 +1,5 @@
 let paises = ['Brasil', 'Argentina', 'Chile', 'Peru', 'Uruguai']
 
-paises.forEach(pais => {
-  console.log(`País: ${pais}`)
+paises.forEach(function(pais) {
+    console.log("País: " + pais)
 })
