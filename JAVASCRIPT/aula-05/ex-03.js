@@ -1,4 +1,4 @@
 let logado = true
-let mensagem = logado ? "Bem-vindo de volta!" : "Faça login"
+let resposta = logado == true ? "Bem-vindo de volta!" : "Faça login"
 
-console.log(mensagem)
+console.log(resposta)

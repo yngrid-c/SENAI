@@ -1,8 +1,8 @@
 let valor = 7
 
 if (valor %2 === 0){
-    console.log("o número X é par")
+    console.log("o numero X e par")
 }
  else{
-    console.log("O número X e ímpar")
+    console.log("o numero X e impar")
  }

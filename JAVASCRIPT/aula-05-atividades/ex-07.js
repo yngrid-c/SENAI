@@ -4,10 +4,10 @@ if ( nota >= 9) {
     console.log ("Excelente")
 }
  else if ( nota >=7) {
-    console.log ("Bom")
+    console.log ("bom")
 }
   else if ( nota >= 5){
-    console.log ("Regular")
+    console.log ("regular")
 }
   else{
     console.log("pessimo")

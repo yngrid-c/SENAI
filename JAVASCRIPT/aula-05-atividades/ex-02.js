@@ -7,5 +7,5 @@ if (numero > 0){
     console.log("negativo")
  }
   else if (numero === 0){
-  console.log("Zero")
+  console.log("zero")
 }

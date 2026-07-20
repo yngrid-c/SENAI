@@ -1,3 +1,4 @@
+
 let numero = 7
 
 //  o % mostra o resultado de uma divisao, se n usar o 0 vai mostra true ou false
