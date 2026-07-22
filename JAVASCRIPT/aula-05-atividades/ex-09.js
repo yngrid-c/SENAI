@@ -1,4 +1,8 @@
 let logado = true
-let mensagem = logado ? "bem vindo" : "faça login"
 
-console.log(mensagem)
+if (logado == true){
+    console.log("bem vindo de volta")
+}
+else{
+    console.log("faça login")
+}

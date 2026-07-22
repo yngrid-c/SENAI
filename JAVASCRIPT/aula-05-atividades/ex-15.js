@@ -12,7 +12,7 @@ switch (operador) {
     case "*":
         console.log(num1 * num2)
         break
-
+        
     case "/":
         if (num2 == 0) {
             console.log(num1 / num2)

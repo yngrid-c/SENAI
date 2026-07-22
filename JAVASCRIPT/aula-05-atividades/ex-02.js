@@ -6,6 +6,6 @@ if (numero > 0){
  else if (numero < 0){
     console.log("negativo")
  }
-  else if (numero === 0){
+  else {
   console.log("zero")
 }
