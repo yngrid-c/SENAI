@@ -1,8 +1,8 @@
-let botao = document.querySelector(".btnMostrar")
+let titulo = document.querySelector (h1)
+let botao = document.querySelector("button")
 let resultado = document.querySelector("#resultado")
 
 
 botao.addEventListener("click", function(){
-    let titulo = document.querySelector("h1")
-    resultado.textContent = titulo.textContent
+    resultado.textContent = titulo.te
 })
