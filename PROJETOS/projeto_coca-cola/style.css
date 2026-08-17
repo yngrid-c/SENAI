@@ -149,3 +149,16 @@ p{
     background-position: center;
 }
 
+@media(max-width: 780px){
+        .linha {
+        display: none;
+    }
+
+    .links-header{
+        display: none;
+    }
+
+    .header{
+        padding: 10px 20px;
+    }
+}
