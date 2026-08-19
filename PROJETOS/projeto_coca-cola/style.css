@@ -149,16 +149,56 @@ p{
     background-position: center;
 }
 
-@media(max-width: 780px){
-        .linha {
-        display: none;
+@media(max-width: 1024px){
+
+    .linha{
+        padding: 12px 20px;
+        justify-content: center;
     }
 
-    .links-header{
-        display: none;
+    .links a{
+        font-size: 12px;
     }
 
     .header{
         padding: 10px 20px;
+    }
+    .header img {
+        padding: 10px 20px;
+    }
+    .links-header{
+        gap: 5px;
+    }
+
+    .links-header a {
+        font-size: 12px;
+    }
+
+    .banner{
+        width: 100%;
+    }
+
+    .cards{
+        flex-wrap: wrap;
+    }
+    .footer{
+        padding: 20px 20px;
+    }
+
+    .footer img{
+        width:  35px;
+        height: 35px;
+    }
+
+    .psus{
+        padding: 0 20px;
+    }
+    .socials{
+        gap: 5px;
+    }
+
+    .socials a{
+        width: 16px;
+        height: 16px;
     }
 }
